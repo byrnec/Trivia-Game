@@ -8,6 +8,7 @@
     <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 </head>
+
 <header>
     <h1>Air Quality Trivia!</h1>
     <h4>Are you ready for the challenge?</h4>
@@ -16,11 +17,11 @@
 
 <body>
     <div id="container">
-        <div id=start>
-            <button id="play">Press here to start</button>
+        <div id=startButton>
+            <button id="playButton">Press here to start</button>
         </div>
         <br>
-        <div id=timer>You have <span id="countdown">10</span> seconds!!</div>
+        <div id=timer>You have <span id="countdown"></span> seconds left!</div>
         <br>
         <div id="quiz">
             <div id="question">
@@ -69,7 +70,7 @@
             <p>Correct: <span id=correct>0</span></p>
             <p>Incorrect: <span id=incorrect>0</span></p>
             <p>Unanswered: <span id=unanswered>0</span></p>
-            <button id="reset">Would you like to start over?</button>
+            <button id="resetButton">Would you like to start over?</button>
         </div>
     </div>
     </div>

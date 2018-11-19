@@ -3,13 +3,15 @@ $(document).ready(function () {
 
 
 // global variables
-var count = 0;
-var totalQuestions = 7;
-var correct = 0;
-var incorrect = 0;
-var unAnswered = 0;
-var answers = ["India", "Asthma", "330", "x", "x", "x"],
-var data = $("input")
+var totalQuizQuestions = 3,
+count = 20,
+totalQuestions = 7,
+correct = 0,
+incorrect = 0,
+unanswered = 0,
+answers = ["India", "Asthma", " 330", "x", "x", "x"],
+data = $("input");
+
 
 //for loop checks if Q an A match
 
@@ -33,16 +35,14 @@ var data = $("input")
         
         var totalAnswered = correct + incorrect;
         console.log(totalAnswered);
-        if (totalAnswered !== totalQuiz) {
-            unanswered = totalQuiz - totalAnswered;
+        if (totalAnswered !== totalQuizQuestions) {
+            unanswered = totalQuizQuestions - totalAnswered;
         }
 
         $('#correct').html(" " + correct);
         $('#incorrect').html(" " + incorrect);
         $("#unanswered").html(" " + unanswered);
-
     }
-
 
    //Hide and Show events to page section
 
@@ -53,8 +53,9 @@ var data = $("input")
     $("#playButton").click(function() {
         $("#startButton").hide("slow");
         $("#quiz").show("slow");
+        $("#count").show("slow");
 
-        //Setup timer to countdown from 30 seconds total to answer all questions\\
+        //Setup timer to countdown from 12 seconds total to answer all questions
 
         var startTimer = setInterval(function() {
             count--;
@@ -68,11 +69,11 @@ var data = $("input")
                 $("#results").show("slow");
                 scoreCount();
             }
-        }, 3000);
+        }, 1000 *2 );
 
     });
 
-    //complete button...will show score to page now
+    //complete function button...will show score to page now
 
     $("#completedQuiz").click(function() {
         $("#quiz, #timer").hide("slow");
@@ -81,9 +82,9 @@ var data = $("input")
         scoreCount();
     });
 
-    //restart button refreshes page back to start screen//
+    //restart button refreshes page back to start screen
 
-    $("#restart").click(function() {
+    $("#resetButton").click(function() {
         location.reload();
     });
 });

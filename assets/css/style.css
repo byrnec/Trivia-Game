@@ -1,37 +1,55 @@
 body{
-    background-image: url("../images/smoke.jpeg");
-    color: black;
-	background-color:white;
+    background-image: url("../images/smog.jpg");
+
+    color: white;
 }
 div{
 	margin-left: 50px;
-    width: 75%;
-    color: black;
+    width: 88%;
+    color: white;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
     font-size: 20px;
     text-align: left;
 }
 
+
 h1, h4, span{
 	font-weight: bold;
     text-align: center;
     color: white;
     font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
 }
 
+#playButton{
+color: black;
+background-color: white;
+}
+
+#completedQuiz{
+    color: black;
+    background-color: white;
+    }
+
+#startButton{
+    color: black;
+        background-color: white;
+        width: 20%;
+    }
+
+#resetButton{
+color: black;
+    background-color: white;
+}
 h3{
-    font-weight: boldr
+    font-weight: bold;
     text-align: center;
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
 
-h1{
-    font-size: 35px;
-    text-align: center;
-}
 img{
     text-align: center;
     float: right;
@@ -42,19 +60,5 @@ img{
 }
 ol{
     list-style-type: disc;
-}
-
-#display{
-    text-size: 45px;
-    color: red;
-}
-
-#totalScore{
-    text-size: 35px;
-    color: red;
-}
-
-#random-button{
-    color: purple;
-    font-size: 26px;
+   font-size:70px;
 }
