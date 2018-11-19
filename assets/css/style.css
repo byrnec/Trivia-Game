@@ -1,0 +1,60 @@
+body{
+    background-image: url("../images/smoke.jpeg");
+    color: black;
+	background-color:white;
+}
+div{
+	margin-left: 50px;
+    width: 75%;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 20px;
+    text-align: left;
+}
+
+h1, h4, span{
+	font-weight: bold;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    font-weight: boldr
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 35px;
+    text-align: center;
+}
+img{
+    text-align: center;
+    float: right;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left:  30px;
+    border-radius: 40px;
+}
+ol{
+    list-style-type: disc;
+}
+
+#display{
+    text-size: 45px;
+    color: red;
+}
+
+#totalScore{
+    text-size: 35px;
+    color: red;
+}
+
+#random-button{
+    color: purple;
+    font-size: 26px;
+}

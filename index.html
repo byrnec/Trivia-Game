@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Trivia Game!</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<header>
+    <h1>Air Quality Trivia!</h1>
+    <h4>Are you ready for the challenge?</h4>
+</header>
+<br>
+
+<body>
+    <div id="container">
+        <div id=start>
+            <button id="play">Press here to start</button>
+        </div>
+        <br>
+        <div id=timer>You have <span id="countdown">10</span> seconds!!</div>
+        <br>
+        <div id="quiz">
+            <div id="question">
+                <form>
+                    <label>Which country has the worst air quality?</label>
+                    <br>
+                    <input type="radio" id="radio" name="answer1" value="india"> India
+                    <br>
+                    <input type="radio" id="radio" name="answer1" value="Pakistan"> Pakistan
+                    <br>
+                    <input type="radio" id="radio" name="answer1" value="China"> China
+                    <br>
+                    <input type="radio" id="radio" name="answer1" value="Uganda"> Uganda
+                    <br>
+                    <br>
+                    <label>Which diseease is a bad Air Quality Index worst for?</label>
+                    <br>
+                    <input type="radio" id="radio" name="answer2" value="Asthma"> Asthma
+                    <br>
+                    <input type="radio" id="radio" name="answer2" value="Diabetes"> Diabetes
+                    <br>
+                    <input type="radio" id="radio" name="answer2" value="Flu"> Flu
+                    <br>
+                    <input type="radio" id="radio" name="answer2" value="chicken pox"> Chicken Pox
+                    <br>
+                    <br>
+                    <label>Which is the worst Air Quality Index?</label>
+                    <br>
+                    <input type="radio" id="radio" name="answer3" value="120"> 120
+                    <br>
+                    <input type="radio" id="radio" name="answer3" value="10"> 10
+                    <br>
+                    <input type="radio" id="radio" name="answer3" value=330>330
+                    <br>
+                    <input type="radio" id="radio" name="answer3" value="211"> 211
+                    <br>
+                   
+                
+                </form>
+                <br>
+            </div>
+            <button id="completedQuiz">Are these your final answers? Press yes to continue!</button>
+        </div>
+        <div id=results>
+            <h1>Final Results</h1>
+            <p>Correct: <span id=correct>0</span></p>
+            <p>Incorrect: <span id=incorrect>0</span></p>
+            <p>Unanswered: <span id=unanswered>0</span></p>
+            <button id="reset">Would you like to start over?</button>
+        </div>
+    </div>
+    </div>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>
+
