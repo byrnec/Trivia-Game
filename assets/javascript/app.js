@@ -8,7 +8,7 @@ count = 40,
 correct = 0,
 incorrect = 0,
 unanswered = 0,
-answers = ["India", "Asthma","Wheat and Soybeans","Strawberries and Blueberries","92","Smog",  "4.9", "62"],
+answers = ["India", "Asthma","Wheat and Soybeans","92","Smog", "4.9", "62"],
 data = $("input");
 
 

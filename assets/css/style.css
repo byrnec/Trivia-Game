@@ -2,18 +2,21 @@ body{
    background-color: grey;
     font-family: 'Glegoo', serif;
     color: white;
+    margin-left: 75px;
+    margin-right: 75px;
+    width: 70%;
 }
 div{
-	margin-left: 50px;
     color: white;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
     font-size: 20px;
     text-align: left;
     font-family: 'Glegoo', serif;
-    width: 70%;
+    width: 100%;
     text-align: center;
     background-image: url("../images/smog.jpg");
+    position: relative;
 }
 
 span{
@@ -51,14 +54,6 @@ background-color: white;
     color: black;
     background-color: white;
 }
-h3{
-    font-weight: bold;
-    text-align: center;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-}
-
 img{
     text-align: center;
     float: right;
