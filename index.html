@@ -6,29 +6,26 @@
     <meta charset="UTF-8">
     <title>Trivia Game!</title>
     <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Glegoo" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 </head>
-
-<header>
-    <h1>Air Quality Trivia!</h1>
-    <h4>Are you ready for the challenge?</h4>
-</header>
-<br>
-
 <body>
     <div id="container">
-        <div id=startButton>
-            <button id="playButton">Press here to start</button>
-        </div>
+            <h1>Air Quality Trivia!</h1>
+            <h4>Are you ready for the challenge?</h4>
+        
+            <div id=startButton>
+                    <button id="playButton">Press here to start</button>
+                </div>
         <br>
         <div id=timer>You have <span id="countdown"></span> seconds left!</div>
         <br>
         <div id="quiz">
             <div id="question">
                 <form>
-                    <label>Which country has the worst air quality?</label>
+                    <label>Which country has the worst air quality, on average?</label>
                     <br>
-                    <input type="radio" id="radio" name="answer1" value="india"> India
+                    <input type="radio" id="radio" name="answer1" value="India"> India
                     <br>
                     <input type="radio" id="radio" name="answer1" value="Pakistan"> Pakistan
                     <br>
@@ -37,26 +34,70 @@
                     <input type="radio" id="radio" name="answer1" value="Uganda"> Uganda
                     <br>
                     <br>
-                    <label>Which diseease is a bad Air Quality Index worst for?</label>
+                    <label>Which disease is bad air quality most commonly linked to?</label>
                     <br>
                     <input type="radio" id="radio" name="answer2" value="Asthma"> Asthma
                     <br>
                     <input type="radio" id="radio" name="answer2" value="Diabetes"> Diabetes
                     <br>
-                    <input type="radio" id="radio" name="answer2" value="Flu"> Flu
+                    <input type="radio" id="radio" name="answer2" value="Heart Disease"> Heart Disease
                     <br>
-                    <input type="radio" id="radio" name="answer2" value="chicken pox"> Chicken Pox
+                    <input type="radio" id="radio" name="answer2" value="Chicken pox"> Chicken Pox
                     <br>
                     <br>
-                    <label>Which is the worst Air Quality Index?</label>
+                    <label>Air pollution is most destructive to which of the following?</label>
                     <br>
-                    <input type="radio" id="radio" name="answer3" value="120"> 120
+                    <input type="radio" id="radio" name="answer3" value="Grass"> Grass 
                     <br>
-                    <input type="radio" id="radio" name="answer3" value="10"> 10
+                    <input type="radio" id="radio" name="answer3" value="Strawberries and blueberries"> Strawberries and Blueberries
                     <br>
-                    <input type="radio" id="radio" name="answer3" value=330>330
+                    <input type="radio" id="radio" name="answer3" value="Wheat and Soybeans"> Wheat and Soybeans
                     <br>
-                    <input type="radio" id="radio" name="answer3" value="211"> 211
+                    <input type="radio" id="radio" name="answer3" value="Muscles and Clams"> Muscles and Clams
+                    <br>
+                    <br>
+                    <label>What percent of the global population live in places with unhealthy air quality?</label>
+                    <br>
+                    <input type="radio" id="radio" name="answer4" value="10"> 10%
+                    <br>
+                    <input type="radio" id="radio" name="answer4" value="92"> 92%
+                    <br>
+                    <input type="radio" id="radio" name="answer4" value="15"> 15%
+                    <br>
+                    <input type="radio" id="radio" name="answer4" value="50"> 50%
+                    <br>
+                    <br>
+                    <label>In 1952 in London, four thousand people died in just a few days due to exposure from what type of pollution?</label>
+                    <br>
+                    <input type="radio" id="radio" name="answer5" value="Radon Gas"> Radon Gas
+                    <br>
+                    <input type="radio" id="radio" name="answer5" value="Particulate Matter"> Particulate Matter
+                    <br>
+                    <input type="radio" id="radio" name="answer5" value="Smog"> Smog
+                    <br>
+                    <input type="radio" id="radio" name="answer5" value="Acid Rain"> Acid Rain
+                    <br>
+                    <br>
+                    <label>In 2010, the Deepwater Horizon oil spill, the largest to date in the U.S., discharged roughly how many million barrels?</label>
+                    <br>
+                    <input type="radio" id="radio" name="answer6" value="10.2"> 10.2
+                    <br>
+                    <input type="radio" id="radio" name="answer6" value="4.9"> 4.9
+                    <br>
+                    <input type="radio" id="radio" name="answer6" value=".5"> .5
+                    <br>
+                    <input type="radio" id="radio" name="answer6" value="8.8"> 8.8
+                    <br>
+                    <br>
+                    <label>Harmful indoor air pollution, such as tobacco and cooking smoke, has been estimated to be up to what percent greater than outdoor pollution?</label>
+                    <br>
+                    <input type="radio" id="radio" name="answer7" value="100"> 91%
+                    <br>
+                    <input type="radio" id="radio" name="answer7" value="5"> 5%
+                    <br>
+                    <input type="radio" id="radio" name="answer7" value=".5"> 25%
+                    <br>
+                    <input type="radio" id="radio" name="answer7" value="62"> 62%
                     <br>
                    
                 

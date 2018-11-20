@@ -3,13 +3,12 @@ $(document).ready(function () {
 
 
 // global variables
-var totalQuizQuestions = 3,
-count = 20,
-totalQuestions = 7,
+var totalQuizQuestions = 7,
+count = 40,
 correct = 0,
 incorrect = 0,
 unanswered = 0,
-answers = ["India", "Asthma", " 330", "x", "x", "x"],
+answers = ["India", "Asthma","Wheat and Soybeans","Strawberries and Blueberries","92","Smog",  "4.9", "62"],
 data = $("input");
 
 
