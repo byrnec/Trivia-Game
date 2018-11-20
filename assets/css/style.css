@@ -4,7 +4,7 @@ body{
     color: white;
     margin-left: 75px;
     margin-right: 75px;
-    width: 70%;
+    width: 100%;
 }
 div{
     color: white;
@@ -18,7 +18,9 @@ div{
     background-image: url("../images/smog.jpg");
     position: relative;
 }
-
+#startButton{
+    text-align: center;
+}
 span{
 	font-weight: bold;
     text-align: center;
